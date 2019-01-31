@@ -8,7 +8,7 @@ import java.util.ArrayList;
  **/
 public class BigIntCount {
 
-    public void count1(String parameter1, String parameter2) {
+    public void count(String parameter1, String parameter2) {
         //长短比较
         ArrayList<String> result = new ArrayList<>();
         int length = 0;
@@ -66,8 +66,8 @@ public class BigIntCount {
     }
 
     public static void main(String[] args) {
-        new BigIntCount().count1("999999999", "1");
-        new BigIntCount().count1("999999999", "999999999");
+        new BigIntCount().count("999999999", "1");
+        new BigIntCount().count("999999999", "999999999");
 
     }
 }
